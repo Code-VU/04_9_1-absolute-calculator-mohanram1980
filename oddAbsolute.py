@@ -1,7 +1,14 @@
 def calculateAbsolute():
-    
     # This first line is provided for you
-    in_num  = input("Enter a number: ")
+    absolute = 21
+    in_num  = int(input("Enter a number: "))
+    if in_num > absolute:
+        result = (in_num - absolute) * 2
+    else:
+        result = absolute - in_num
+
+    print('Result:',result)
+        
     # end assignment
 
 ## If you want to test locally run > python payCalculator.py
